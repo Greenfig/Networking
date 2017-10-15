@@ -1,0 +1,16 @@
+﻿Build started 14/03/2014 7:45:27 PM.
+     1>Project "C:\Users\Zappy\Google Drive\Q1(2014)\BTN410\Weekly Labs\Assignment 2\Assignment 2_Client\Assignment 2_Client.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Client.cpp
+         Client.cpp
+     1>c:\users\zappy\google drive\q1(2014)\btn410\weekly labs\assignment 2\assignment 2_client\client.cpp(108): warning C4805: '!=' : unsafe mix of type 'char' and type 'bool' in operation
+     1>c:\users\zappy\google drive\q1(2014)\btn410\weekly labs\assignment 2\assignment 2_client\client.cpp(47): warning C4101: 'ConnectionSocket' : unreferenced local variable
+     1>c:\users\zappy\google drive\q1(2014)\btn410\weekly labs\assignment 2\assignment 2_client\client.cpp(47): warning C4101: 'WelcomeSocket' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Zappy\Google Drive\Q1(2014)\BTN410\Weekly Labs\Assignment 2\Debug\Assignment 2_Client.exe" /INCREMENTAL /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Zappy\Google Drive\Q1(2014)\BTN410\Weekly Labs\Assignment 2\Debug\Assignment 2_Client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Zappy\Google Drive\Q1(2014)\BTN410\Weekly Labs\Assignment 2\Debug\Assignment 2_Client.lib" /MACHINE:X86 Debug\Client.obj
+         Assignment 2_Client.vcxproj -> C:\Users\Zappy\Google Drive\Q1(2014)\BTN410\Weekly Labs\Assignment 2\Debug\Assignment 2_Client.exe
+     1>Done Building Project "C:\Users\Zappy\Google Drive\Q1(2014)\BTN410\Weekly Labs\Assignment 2\Assignment 2_Client\Assignment 2_Client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.99
